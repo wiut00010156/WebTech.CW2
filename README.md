@@ -17,22 +17,13 @@ You can have a look at my repository by clicking on this link(https://github.com
 <p> The descripton of how to run the project locally is given below: </p>
 
 <ol>
-<li> First of all, please run 
-``` 
-bash 
-npm install
-```
+<li> First of all, please run npm install to install all needed dependencies on the local folder.</li>
 
-to install all needed dependencies on the local folder.</li>
+<li> Then start the server using node index.js
 
-<li> Then start the server using  
-```
-bash
-node index.js
-```
  </li>
 
-<li> Navigate to your browser to the follwoing link http://localhost:7000/  to view the app </li>
+<li> Navigate to your browser to the follwoing link http://localhost:3000/  to view the app </li>
 </ol>
 
 <p> You can also view the deployed website by looking at the following website:  </p>
