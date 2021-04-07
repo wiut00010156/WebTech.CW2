@@ -1,0 +1,48 @@
+<html>
+<head> 
+<title> App </title>
+ <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+ <link href="/styles.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+<h2 class="head"> This app was created to fulfill the requirements of web-technologies module at WIUT by student under ID of 00010156 </h2>
+
+<form action ="/addtask" method="POST">
+
+<input type="text" name="newtask" placeholder="add new task">
+<button class="button"> Add Task </button>
+
+
+<h2> Added Tasks: </h2>
+
+<% for( var i = 0; i < task.length; i++){ %>
+    <li><input class="checkbox" type="checkbox" name="check" value="<%= task[i] %>" /> <%= task[i] %> </li>
+<% } %>
+
+<button class="disabled" formaction="/removetask" type="submit" id="top"> Delete </button>
+</form>
+
+<h2> Deleted Tasks: </h2>
+
+ <% for(var i = 0; i < complete.length; i++){ %>
+    <li><input type="checkbox" checked><%= complete[i] %> </li>
+<% } %>
+
+</div>
+
+<div class="footer-basic">
+    <footer>
+        <div class="social"><a href="https://github.com/00010156/WebTech.CW2.git"><i class="icon ion-social-github"></i></a></div>
+        <p class="copyright">Course Work for WebTechnologies 2021 by 00010156</p>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
