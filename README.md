@@ -12,7 +12,7 @@
 
 You can have a look at my repository by clicking on this link(https://github.com/wiut00010156/WebTech.CW2.git)
 You can also view the deployed website on glitch by the following link: 
-
+https://changeable-fir-list.glitch.me/
 <br>
 
 <p> The descripton of how to run the project locally is given below: </p>
