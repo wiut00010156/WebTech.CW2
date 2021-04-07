@@ -18,14 +18,16 @@ You can have a look at my repository by clicking on this link(https://github.com
 
 <ol>
 <li> First of all, please run 
-``` bash 
+``` 
+bash 
 npm install
 ```
 
 to install all needed dependencies on the local folder.</li>
 
 <li> Then start the server using  
-```bash
+```
+bash
 node index.js
 ```
  </li>
